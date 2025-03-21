@@ -13,7 +13,7 @@ class UsuarioController{
       }
    }
    public function LeerUsuario($id){
-      if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["buscar"]){
+      if ($_SERVER["REQUEST_METHOD"] == "POST" || isset($_GET['id'])){
          require_once "../modelo/Usuario.php";
          $usuario = new Usuario();
          return $usuario->buscar($id);
@@ -27,7 +27,7 @@ class UsuarioController{
    }
 
    public function Actualizar(){
-      if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["actualizar"]){
+      if ($_SERVER["REQUEST_METHOD"] == "POST"){
          require_once "../modelo/Usuario.php";
          $usuario = new Usuario();
          $usuario->nombre = $_POST["nombre"];
@@ -39,7 +39,16 @@ class UsuarioController{
    }
    
    public function Eliminar($id){
-
+      if ($_SERVER["REQUEST_METHOD"] == "GET"){
+         require_once "../modelo/Usuario.php";
+         $usuario = new Usuario();
+         if ($usuario->buscar($id) != null){
+            $usuario->eliminar($id);
+         }
+         else{
+            echo "<p> El usuario no existe.";
+         }
+      }
    }
 }
 

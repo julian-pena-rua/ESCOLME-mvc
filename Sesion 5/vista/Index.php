@@ -49,7 +49,7 @@ require_once '../vista/plantilla/head.php';
       <img src="img/actualizar.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
       <div class="w3-bar-item">
         <span class="w3-large">Actualizar</span><br>
-        <a href="#" class="w3-btn w3-yellow">U - Actualizar</a>
+        <a href="actualizar_usuario.php" class="w3-btn w3-yellow">U - Actualizar</a>
       </div>
     </li>
     
@@ -57,7 +57,7 @@ require_once '../vista/plantilla/head.php';
       <img src="img/eliminar.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
       <div class="w3-bar-item">
         <span class="w3-large">Eliminar</span><br>
-        <a href="#" class="w3-btn w3-red">D - Eliminar</a>
+        <a href="eliminar_usuario.php" class="w3-btn w3-red">D - Eliminar</a>
       </div>
     </li>
   </ul>
