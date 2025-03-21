@@ -1,0 +1,11 @@
+CREATE DATABASE Sistema_Control_Usuarios;
+
+USE Sistema_Control_Usuarios;
+
+CREATE TABLE Usuario (
+    id int,
+    nombre varchar(255),
+    apellido varchar(255),
+    genero varchar(255),
+    edad int(3)
+);
