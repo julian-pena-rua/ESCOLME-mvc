@@ -942,3 +942,66 @@
 2025-03-24 10:43:52	LEVEL 2	Conectado a la base de datos exitosamente
 2025-03-24 10:43:52	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 4
 2025-03-24 10:43:52	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 10:45:33	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 10:45:33	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 10:45:33	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:16:45	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:16:45	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 2
+2025-03-24 18:16:45	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:16:52	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:16:52	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 4
+2025-03-24 18:16:52	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:16:57	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:16:57	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 4
+2025-03-24 18:16:57	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:12	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:12	LEVEL 2	Se ha ejecutado la consulta: UPDATE usuario SET nombre='Yurani',apellido='Perez Muñoz',genero='Femenino',edad='29' WHERE id = 4
+2025-03-24 18:17:12	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:12	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:12	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 4
+2025-03-24 18:17:12	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:20	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:20	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 18:17:20	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:34	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:34	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 18:17:34	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:38	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:38	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 18:17:38	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:17:56	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:17:56	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 18:17:56	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 18:18:01	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 18:18:01	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 18:18:01	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:22	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:22	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 4
+2025-03-24 21:56:22	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:29	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:29	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 
+2025-03-24 21:56:29	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:37	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:37	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 21:56:37	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:40	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:40	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 2
+2025-03-24 21:56:40	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:51	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:51	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 
+2025-03-24 21:56:51	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:56:58	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:56:58	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 5
+2025-03-24 21:56:58	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:57:05	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:57:05	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 6
+2025-03-24 21:57:05	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:57:10	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:57:10	LEVEL 2	Se ha ejecutado la consulta: SELECT id, nombre, apellido, genero, edad FROM usuario where id = 8
+2025-03-24 21:57:10	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:57:40	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:57:40	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 21:57:40	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
+2025-03-24 21:57:44	LEVEL 2	Conectado a la base de datos exitosamente
+2025-03-24 21:57:44	LEVEL 2	Se ha ejecutado la consulta: SELECT * FROM usuario
+2025-03-24 21:57:44	LEVEL 2	Cerrada la conexión con la base de datos exitosamente
