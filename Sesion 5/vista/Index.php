@@ -3,6 +3,7 @@
 $GLOBALS['pagina'] = "Sistema control de usuarios";
 require_once '../vista/plantilla/head.php';
 ?>
+
 <style>
   @font-face {
   font-family: 'Allerta Stencil';
@@ -43,21 +44,6 @@ require_once '../vista/plantilla/head.php';
       <div class="w3-bar-item">
         <span class="w3-large">Listar usuarios</span><br>
         <a href="listar_usuarios.php" class="w3-btn w3-green">R - Listar</a>
-      </div>
-    </li>
-    <li class="w3-bar">
-      <img src="img/actualizar.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large">Actualizar</span><br>
-        <a href="actualizar_usuario.php" class="w3-btn w3-yellow">U - Actualizar</a>
-      </div>
-    </li>
-    
-    <li class="w3-bar">
-      <img src="img/eliminar.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-      <div class="w3-bar-item">
-        <span class="w3-large">Eliminar</span><br>
-        <a href="eliminar_usuario.php" class="w3-btn w3-red">D - Eliminar</a>
       </div>
     </li>
   </ul>

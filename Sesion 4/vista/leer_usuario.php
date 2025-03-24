@@ -8,7 +8,7 @@
     require_once '../controlador/UsuarioController.php';
     $controlador = new UsuarioController();
     if(isset($_GET) && isset($_GET['buscar'])){
-        $usuario = $controlador->LeerUsuario($_POST['id']);
+        $usuario = $controlador->LeerUsuario($_GET['id']);
         echo $usuario->nombre;
     }
 ?>

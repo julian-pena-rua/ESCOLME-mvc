@@ -13,7 +13,7 @@ class UsuarioController{
       }
    }
    public function LeerUsuario($id){
-      if ($_SERVER["REQUEST_METHOD"] == "POST" && $_GET["buscar"]){
+      if ($_SERVER["REQUEST_METHOD"] == "GET" && $_GET["buscar"]){
          require_once "../modelo/Usuario.php";
          $usuario = new Usuario();
          return $usuario->buscar($id);

@@ -2,11 +2,11 @@
 
     class Usuario{
         // atributos - propiedades
-        int    $id;
-        string $nombre;
-        string $apellido;
-        string $genero;
-        string $edad;
+        $id;
+        $nombre;
+        $apellido;
+        $genero;
+        $edad;
 
         // métodos - acciones
         
