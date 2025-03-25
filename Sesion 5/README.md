@@ -1,4 +1,4 @@
-# Sesion 6 - Sistema de Control de Usuarios
+# Sesion 5 - Sistema de Control de Usuarios
 
 ## Descripción
 En esta sesión, se finalizará el sistema de control de usuarios implementando las acciones restantes del CRUD (Actualizar y eliminar), se modificaron algunos de los diseños y elementos en las vistas para garantizar brindar una buena experiencia al usuario y le sea amigable en su manejo. 
